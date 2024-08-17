@@ -4,7 +4,6 @@ import { Button, Dropdown, message, Space } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 import AddWidges from "./Components/AddWidges";
 import CategoryCards from "./Components/CategoryCards";
-import { useAuth } from "./dashboardContext";
 const items = [
   {
     label: "Last 24 hours",
