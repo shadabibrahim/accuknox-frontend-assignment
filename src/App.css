@@ -1,0 +1,38 @@
+main {
+  background-color: ghostwhite;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 2rem; */
+  padding: 1rem;
+  .top-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 1rem;
+}
+.card-Columns {
+    margin: 1rem;
+    padding: 1rem;
+  .cardBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 125px;
+   
+  }
+}
+.card{
+  margin: 0.5rem;
+}
