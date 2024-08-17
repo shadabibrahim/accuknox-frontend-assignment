@@ -4,7 +4,7 @@
 
 This repository contains a React application for a dynamic dashboard and widget management system. The application allows users to manage widgets across various categories, including the ability to add, remove, and search widgets.
 ## Live Demo
-Check out the live demo: [Personal Finance Tracker App](https://accuknox-frontend.netlify.app)
+Check out the live demo: [Widget Management System](https://accuknox-frontend.netlify.app)
 ## Features
 
 ## Dashboard
@@ -47,7 +47,7 @@ Tasks Completed
 
 
   ###  Getting Started
-    	  1.	Clone the Repository:
+  	1.	Clone the Repository:
         https://github.com/shadabibrahim/accuknox-frontend-assignment.git
         2.	Navigate to the Project Directory:
         cd accuknox-frontend-assignment
