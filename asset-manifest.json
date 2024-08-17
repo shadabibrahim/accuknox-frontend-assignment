@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https://github.com/shadabibrahim/accuknox-frontend-assignment.git/static/css/main.03b3135f.css",
+    "main.js": "/https://github.com/shadabibrahim/accuknox-frontend-assignment.git/static/js/main.2a393be1.js",
+    "index.html": "/https://github.com/shadabibrahim/accuknox-frontend-assignment.git/index.html",
+    "main.03b3135f.css.map": "/https://github.com/shadabibrahim/accuknox-frontend-assignment.git/static/css/main.03b3135f.css.map",
+    "main.2a393be1.js.map": "/https://github.com/shadabibrahim/accuknox-frontend-assignment.git/static/js/main.2a393be1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03b3135f.css",
+    "static/js/main.2a393be1.js"
+  ]
+}
