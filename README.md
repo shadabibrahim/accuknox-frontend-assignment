@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+##Dashboard Widget Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ ###Overview
 
-## Available Scripts
+This repository contains a React application for a dynamic dashboard and widget management system. The application allows users to manage widgets across various categories, including the ability to add, remove, and search widgets.
+### Features
+Tasks Completed
 
-In the project directory, you can run:
+1. Dynamic Dashboard and Widget Configuration
 
-### `npm start`
+	•	Task: Created a JSON structure to build the dashboard and widgets dynamically.
+	•	Details: The JSON file includes categories and each category contains multiple widgets. This structure allows for the dynamic rendering of categories and widgets on the dashboard.
+2. Add and Remove Widgets
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+	•	Task: Enabled users to dynamically add and remove widgets from categories.
+	•	Details: Users can click a “+Add Widget” button to add new widgets to a selected category. Users can also remove widgets from a category using a cross icon on each widget or by unchecking the widget in the add category section.
+    3. Widget Text Content
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+	•	Task: Implemented functionality to include random text for each widget.
+	•	Details: For the purpose of this assignment, widgets are initialized with random text that can be customized later.
+4. Widget Addition Form
 
-### `npm test`
+	•	Task: Users can add a widget by entering a widget name and text in a form.
+	•	Details: The form includes fields for the widget name and text. After submission, the widget is added to the selected category.
+5. Remove Widget Functionality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+	•	Task: Implemented a cross icon to remove widgets from categories.
+	•	Details: Each widget includes a cross icon to facilitate its removal from the category. Additionally, users can deselect widgets from the category list in the add category section.
+    6. Widget Search Feature
 
-### `npm run build`
+	•	Task: Users can search through a list of all widgets.
+	•	Details: Added a search box that filters widgets based on their name or text. The search is case-insensitive and updates in real-time as users type.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    7. State Management with Context API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+	•	Task: Implemented state management using React’s Context API.
+	•	Details: Created a context to manage and share the state of categories and widgets across the application. This approach simplifies state management and allows for clean and maintainable code.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Getting Started
+    	  1.	Clone the Repository:
+        https://github.com/shadabibrahim/accuknox-frontend-assignment.git
+        2.	Navigate to the Project Directory:
+        cd accuknox-frontend-assignment
+        3.	Install Dependencies:
+        npm install
+        4.	Start the Development Server:
+        npm start
